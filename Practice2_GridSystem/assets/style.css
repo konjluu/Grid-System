@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    margin-top: 16px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    min-height: 300px;
+    line-height: 380px;
+    background-color: rgb(182, 107, 15);
+}
