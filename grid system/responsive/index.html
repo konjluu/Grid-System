@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./grid.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+      }
+
+    body{
+        margin: 0;
+    }
+    .container{
+        text-align: center;
+    }
+
+    .course-item{
+        background-color: bisque;
+        height: 260px;
+    }
+    h1{
+        color: black;
+        line-height: 260px;
+        margin-top: 10px;
+    }
+
+    .category{
+        background-color: rgb(6, 146, 146);
+        height: 300px;
+    }
+
+    ul{
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <div class="grid wide container">
+
+
+        <div class="row">
+            <div class="col l-3">
+                <div class="category">
+                    <ul>
+                        <li>JS</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Node JS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col l-9">
+                <div class="row">
+                    <div class="col l-4 m-6 c-6 ">
+                        <div class="course-item">
+                            <h1>Item 1</h1>
+                        </div>
+                    </div>
+            
+                    <div class="col l-4 m-6 c-6 ">
+                        <div class="course-item">
+                            <h1>Item 2</h1>
+                        </div>
+                    </div>
+            
+                    <div class="col l-4 m-6 c-6 ">
+                        <div class="course-item">
+                            <h1>Item 3</h1>
+                        </div>
+                    </div>
+            
+                    <div class="col l-4 m-6 c-6 ">
+                        <div class="course-item">
+                            <h1>Item 4</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
